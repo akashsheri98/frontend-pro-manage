@@ -1,0 +1,157 @@
+
+.todo_container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px;
+    /* width:640px; */
+    border-radius:10px;
+    min-width:fit-content;
+    min-height:fit-content;
+    background-color:#ffff;
+    position:absolute;
+    left:28rem;
+}
+
+.todo_form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    min-width:fit-content;
+    min-height:fit-content;
+}
+
+.todo_title{
+    width:640px;
+    min-height: fit-content;
+    /* background-color:green; */
+    color:black;
+
+}
+
+.todo_title p{
+    font-weight:normal;
+    margin:0;
+}
+.todo_title input{
+    width:590px;
+    height:20px;
+    background-color:transparent;
+    border:2px solid #EEECEC;
+    border-radius:6px;
+}
+
+
+.todo_priority{
+    width:590px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.priority_label{
+    font-size:12px;
+    min-width:fit-content;
+
+}
+.priority{
+    display:flex;
+    align-items:center;
+}
+.priority li{
+    font-size:12px;
+    min-width:fit-content;
+    min-height:fit-content;
+    padding:4px;
+    border:2px solid #EEECEC;
+    border-radius:6px;
+    margin:6px;
+}
+
+
+.checklist_field{
+    width: 100%;
+    gap:6px;
+
+}
+
+.checklist_title{
+    margin-bottom: 8px;
+}
+.checklist_btn{
+    height: 33px;
+    width: 100px;
+    min-width:fit-content;
+    padding:4px;
+    gap:6px;
+    background-color:transparent;
+    color:black;
+
+}
+
+
+.checklist_tasks{
+    display:flex;
+    align-items:center;
+    padding:2px;
+    border:2px solid #EEECEC;
+    border-radius:6px;
+    /* justify-content:center; */
+}
+
+.task_namefield{
+    width:100%;
+    display:flex;
+    align-items:center;
+    padding-right:8px;
+}
+
+
+.task_namefield input{
+    width:100%;
+  }
+
+.footer_buttons{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.footer_buttons button{
+    width:110px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.calender_btn{
+    color:black;
+    border:2px solid #EEECEC;
+    background-color:transparent;
+}
+
+.right_buttons{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+.cancel_btn{
+    border:2px solid #EEECEC;
+    background-color:transparent;
+    color:red;
+    border:2px solid red;
+}
+.cancel_btn:hover{
+    background-color:red;
+}
+
+.submit_btn{
+    border:2px solid #EEECEC;
+    background-color:#17A2B8;
+}
+.submit_btn hover{
+    background-color:white;
+}

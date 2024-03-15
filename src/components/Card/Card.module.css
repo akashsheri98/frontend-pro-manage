@@ -1,0 +1,119 @@
+
+.board_cards{
+    min-height: fit-content;
+    min-width: fit-content;
+    max-height: fit-content;
+    width: 280px;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:25px;
+    border-radius:20px;
+    gap:10px;
+    margin-bottom:20px;
+
+}
+
+.card_label{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:-30px;
+}
+
+.card_priority_label{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+}
+
+.card_priority_label_color{
+width: 9px;
+height: 9px;
+border-radius:50%;
+background-color:red;
+
+}
+
+.card_title{
+    padding-top:1.5rem;
+    margin-bottom:10px;
+    
+}
+
+.checklist_header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.checklist_info{
+    font-size:14px;
+    font-weight:normal;
+}
+
+.checklist_header svg{
+    background-color:#EEECEC;
+    cursor:pointer;
+}
+
+.chips{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px;
+  
+}
+
+.calender{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:62px;
+    height:22px;
+    padding: 5px, 10px, 5px, 10px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color:#EEECEC;
+    margin:2px;
+}
+
+.calender p {
+    font-size:12px;
+    font-weight:normal;
+    /* padding:2px; */
+
+}
+
+/*------------task chips--------------*/
+
+.chips_outer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+     width:62px;
+    height:22px;
+    padding: 5px, 10px, 5px, 10px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color:#EEECEC;
+    margin:2px;
+    
+    }
+    
+    .chips{
+       
+        font-size:12px;
+        font-weight:normal;
+        padding:2px;
+    
+    }
+    
+    .task_chips{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    

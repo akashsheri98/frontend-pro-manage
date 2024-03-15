@@ -1,0 +1,31 @@
+
+/* CSS for the Checklist component */
+.checklistContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+  }
+  
+  .checklistItem {
+    display: flex;
+    border: solid 1px #EEECEC;
+    border-radius:12px;
+    padding:8px;
+    margin-bottom: 10px;
+  }
+
+  input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 10%;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .itemText {
+    font-size:12px;
+    font-weight:normal;
+  }
